@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "vzero-production"
+  },
+  "targets": {
+    "vzero-production": {
+      "hosting": {
+        "vzero-production": [
+          "vzero-production"
+        ]
+      }
+    }
+  }
+}
