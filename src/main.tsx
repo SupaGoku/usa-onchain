@@ -5,4 +5,4 @@ import './globals.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<Home />)
 
-console.log('deploy test')
+console.log('deploy test 2')
