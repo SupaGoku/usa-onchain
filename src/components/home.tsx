@@ -1,7 +1,6 @@
 import { Analytics } from '@vercel/analytics/react'
 
 import { Cta } from './cta'
-import { Dollar } from './dollar'
 import { European } from './european'
 import { Faq } from './faq'
 import { Footer } from './footer'
@@ -21,7 +20,7 @@ export const Home = () => {
         <Hero />
         <Cta />
         <Socials />
-        <Dollar />
+        {/* <Dollar /> */}
         <Whitepaper />
         <Faq />
         <Roadmap />
