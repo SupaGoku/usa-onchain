@@ -2,9 +2,9 @@ import { csx } from '../utils'
 
 export const Header = () => {
   return (
-    <header className={csx('relative flex flex-col items-center justify-center bg-black pt-12 md:pb-0 md:pt-6')}>
+    <header className={csx('bg-black relative flex flex-col items-center justify-center pt-12 md:pb-0 md:pt-6')}>
       <h1
-        className="font-patriot relative z-40 my-0 flex w-[50%] flex-wrap items-center justify-center gap-x-4 text-[68px] md:w-full md:text-[80px] lg:text-[120px]"
+        className="relative z-40 my-0 flex w-[50%] flex-wrap items-center justify-center gap-x-4 font-patriot text-[68px] md:w-full md:text-[80px] lg:text-[120px]"
         style={{ zIndex: 30 }}
       >
         <div>

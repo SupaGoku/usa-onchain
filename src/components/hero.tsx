@@ -21,7 +21,7 @@ export const Hero = () => {
       <img
         alt="AMERICA"
         height={600}
-        src="/model1.png"
+        src="/model1-min.png"
         width={600}
         className={csx(
           'absolute z-40 w-auto',

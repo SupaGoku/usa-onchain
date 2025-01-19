@@ -5,7 +5,7 @@ const BIRDEYE_LINK = 'https://birdeye.so/token/69kdRLyP5DTRkpHraaSZAQbWmAwzF9guK
 
 export const Cta = () => {
   return (
-    <section className="bg-clearBlack relative z-10 flex w-full flex-col items-center gap-y-8 py-8">
+    <section className="relative z-10 flex w-full flex-col items-center gap-y-8 bg-clearBlack py-8">
       <div className="flex flex-col items-center justify-center gap-x-4 gap-y-4 md:flex-row">
         <Button url={BIRDEYE_LINK}>BUY &#36;USA</Button>
         <div className="rounded-xl border border-[#195ba6] bg-[#195ba6] p-2 text-xs md:p-4 md:text-base">
