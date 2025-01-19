@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import { Cta } from './cta'
 import { Dollar } from './dollar'
 import { European } from './european'
@@ -12,20 +14,23 @@ import { Whitepaper } from './whitepaper'
 
 export const Home = () => {
   return (
-    <main className="relative flex min-h-screen flex-col items-center overflow-x-hidden">
-      <Header />
+    <>
+      <main className="relative flex min-h-screen flex-col items-center overflow-x-hidden">
+        <Header />
 
-      <Hero />
-      <Cta />
-      <Socials />
-      <Dollar />
-      <Whitepaper />
-      <Faq />
-      <Roadmap />
-      <HowToBuy />
-      <European />
+        <Hero />
+        <Cta />
+        <Socials />
+        <Dollar />
+        <Whitepaper />
+        <Faq />
+        <Roadmap />
+        <HowToBuy />
+        <European />
 
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+      <Analytics />
+    </>
   )
 }
