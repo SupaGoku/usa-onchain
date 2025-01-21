@@ -1,6 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/react'
-
 import { Cta } from './cta'
 import { European } from './european'
 import { Faq } from './faq'
@@ -30,8 +27,6 @@ export const Home = () => {
 
         <Footer />
       </main>
-      <Analytics />
-      <SpeedInsights />
     </>
   )
 }
